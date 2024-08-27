@@ -1,8 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+/* font style */
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+}
+.logo{
+  font-size: 30px;
+  color: coral;
+}
+.home{
+  background-color: coral;
+  border-radius: 50px;
+  padding: 8px 12px;
+}
+/* body releted style */
+body {
+  background-color: black;
+  color: white;
+  max-width: 1024px;
+  margin: 0 auto;
   font-style: normal;
+  justify-content: space-between;
+
+}
+/* nav item */
+nav{
+  display:flex;
+  justify-content: space-between;
+}
+.nav-ul{
+  list-style-type: none;
+  display: flex;
+  align-content: center;
+  gap: 20px;
+  border: 1px solid gainsboro;
+  padding: 3px;
+  border-radius: 20px;
+  padding: 10px 15px;
+
+}
+nav ul li{
+padding-top: 8px;
+}
+/* banner style */
+.banner{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 40px;
+}
+.banner-text h1{
+ font-size: 60px;
+}
+.banner-text p {
+ color: rgb(121, 129, 137);
+}
+/* button style */
+.button{
+  margin-top: 30px;
+}
+.btn-primary{
+  padding: 20px 40px;
+  border-radius: 20px;
+  border: none;
+  background:chocolate;
+  color: white;
+  font-size: 20px;
+}
+.btn-secondary{
+  padding: 20px 40px;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: 20px;
+}
+.banner-container{
+  display: flex;
+  justify-content: end;
+}
+.banner-image{
+  width: max-content;
+  position: relative;
+}
+.banner-image img{
+  height: 430px;
+}
+
+.banner-image p{
+  margin-bottom: 10px;
+  row-gap: 0px;
+
+}
+/* card */
+.card-500{
+  position: absolute;
+  top: 5%;
+  right: -30%;
+  border: 1px solid gray;
+  border-radius: 15px;
+}
+
+.card-350{
+  position: absolute;
+  bottom: 5%;
+  left: -40%;
+  backdrop-filter: blur (10px) ;
+  border-radius: 10px;
+  border: 1px solid gray;
 }
