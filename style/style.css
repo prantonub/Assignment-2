@@ -137,11 +137,7 @@ margin-bottom: -2px;
   margin-top: 40px;
   
 }
-/* nav .fontawesome{
-  display: none;
-} */
 
-/* image style */
 .images-container{
   border-top-left-radius: 50% 50%; 
   border-top-right-radius: 50% 50%; 
@@ -278,7 +274,64 @@ input, select {
             text-align: center;
         }
 
-        @media(min-width: 768px) {
+        @media(min-width: 768px) 
+        
+        .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+     
+    .navbar .nav-ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .fontawesome {
+        display: block; /* Show the menu icon on mobile */
+        font-size: 30px;
+        color: #fff;
+    }
+
+    .banner-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner-container .banner-image img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .images-style {
+        max-width: 100%;
+    }
+
+    .banner-bg {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner-styles {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .small-banner {
+        max-width: 100%;
+    }
+
+    .image-run {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+        
+        
+        {
             .footer-content {
                 flex-direction: row;
                 justify-content: space-between;
@@ -333,58 +386,3 @@ input, select {
             text-align: center;
             color: #888888;
         }
-
-
-/* responsive style */
-@media screen and (max-width:412px) {
-  nav .fontawesome{
-   display: inline;
-   margin-left: 220px ;
-   }
-   /* .nav-ul{
-    display: none;
-   } */
-   .banner {
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    margin-left: 20px;
-   }
-   .ptag {
-    text-align: center;
-   }
-   .new-ptag .new-header{
-    text-align: center;
-   }
-   .logo {
-    margin-left: 20px;
-   }
-   .card-500{
-    margin-right: 40px;
-   }
-   .card-350{
-     margin-left: 100px;
-   }
-   .banner-container{
-    justify-content: center;
-   }
-   .banner h1{
-    font-size: 40px;
-   }
-   .images{
-  display: grid ;
-  justify-content: center;
-  gap: 0px;
-  }
-  .images-style{
-  margin-bottom: 20px;
-}
-.banner-styles{
-  display: grid;
-  text-align: center;
-  
-}
-}
-.center{
-  align-items: center;
-  justify-content: center;
-}
