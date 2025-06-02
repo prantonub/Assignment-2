@@ -137,9 +137,9 @@ margin-bottom: -2px;
   margin-top: 40px;
   
 }
-nav .fontawesome{
+/* nav .fontawesome{
   display: none;
-}
+} */
 
 /* image style */
 .images-container{
@@ -184,9 +184,7 @@ nav .fontawesome{
   border-radius: 30px;
 }
 /* BMI section */
-.bmi-section{
 
-}
 .bmi{
   padding-top: 50px;
   padding-bottom: 50px;
@@ -284,7 +282,7 @@ input, select {
             .footer-content {
                 flex-direction: row;
                 justify-content: space-between;
-                text-align: left;
+                text-align: center;
             }
         }
 
@@ -336,57 +334,3 @@ input, select {
             color: #888888;
         }
 
-
-/* responsive style */
-@media screen and (max-width:412px) {
-  nav .fontawesome{
-   display: inline;
-   margin-left: 220px ;
-   }
-   .nav-ul{
-    display: none;
-   }
-   .banner {
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    margin-left: 20px;
-   }
-   .ptag {
-    text-align: center;
-   }
-   .new-ptag .new-header{
-    text-align: center;
-   }
-   .logo {
-    margin-left: 20px;
-   }
-   .card-500{
-    margin-right: 40px;
-   }
-   .card-350{
-     margin-left: 100px;
-   }
-   .banner-container{
-    justify-content: center;
-   }
-   .banner h1{
-    font-size: 40px;
-   }
-   .images{
-  display: grid ;
-  justify-content: center;
-  gap: 0px;
-  }
-  .images-style{
-  margin-bottom: 20px;
-}
-.banner-styles{
-  display: grid;
-  text-align: center;
-  
-}
-}
-.center{
-  align-items: center;
-  justify-content: center;
-}
